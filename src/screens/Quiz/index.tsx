@@ -81,7 +81,6 @@ export function Quiz() {
   }
 
   async function handleFinished() {
-    console.log('sera', points);
     await historyAdd({
       id: new Date().getTime().toString(),
       title: quiz.title,
@@ -115,7 +114,7 @@ export function Quiz() {
 
       setPoints(prevState => prevState + 1);
 
-      handleNextQuestion();
+      // handleNextQuestion();
     } else {
       playSound(false);
 
@@ -143,7 +142,6 @@ export function Quiz() {
   }
 
   async function shakeAnimation() {
-    // await Haptics.notificationAsync(Haptics.NotificationFeedbackType.Error);
     const options = {
       enableVibrateFallback: true,
       ignoreAndroidSystemSettings: false,
@@ -247,6 +245,12 @@ export function Quiz() {
 
     return () => backHandler.remove();
   }, []);
+
+  useEffect(() => {
+    if (points >= 1) {
+      handleNextQuestion();
+    }
+  }, [points]);
 
   if (isLoading) {
     return <Loading />;
