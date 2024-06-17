@@ -1,4 +1,4 @@
-package com.devfitness2
+package com.devQuiz
 
 import android.app.Application
 import com.facebook.react.PackageList

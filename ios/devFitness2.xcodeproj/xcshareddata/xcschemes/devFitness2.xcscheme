@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "devFitness2.app"
-               BlueprintName = "devFitness2"
-               ReferencedContainer = "container:devFitness2.xcodeproj">
+               BuildableName = "devQuiz.app"
+               BlueprintName = "devQuiz"
+               ReferencedContainer = "container:devQuiz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "devFitness2Tests.xctest"
-               BlueprintName = "devFitness2Tests"
-               ReferencedContainer = "container:devFitness2.xcodeproj">
+               BuildableName = "devQuizTests.xctest"
+               BlueprintName = "devQuizTests"
+               ReferencedContainer = "container:devQuiz.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "devFitness2.app"
-            BlueprintName = "devFitness2"
-            ReferencedContainer = "container:devFitness2.xcodeproj">
+            BuildableName = "devQuiz.app"
+            BlueprintName = "devQuiz"
+            ReferencedContainer = "container:devQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "devFitness2.app"
-            BlueprintName = "devFitness2"
-            ReferencedContainer = "container:devFitness2.xcodeproj">
+            BuildableName = "devQuiz.app"
+            BlueprintName = "devQuiz"
+            ReferencedContainer = "container:devQuiz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

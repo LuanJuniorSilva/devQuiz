@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.devfitness2"
+    namespace "com.devQuiz"
     defaultConfig {
-        applicationId "com.devfitness2"
+        applicationId "com.devQuiz"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
