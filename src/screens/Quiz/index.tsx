@@ -113,8 +113,6 @@ export function Quiz() {
       setStatusReply(1);
 
       setPoints(prevState => prevState + 1);
-
-      // handleNextQuestion();
     } else {
       playSound(false);
 
